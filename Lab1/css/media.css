@@ -1,0 +1,115 @@
+@media screen and (max-width: 1024px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav .auth-buttons {
+        display: none;
+    }
+
+    nav img.burger-menu {
+        display: flex;
+        padding-right: 20px;
+    }
+
+    nav .logo {
+        padding-left: 20px;
+    }
+
+    .hero {
+        padding: 0px;
+    }
+
+    .hero h1 {
+        width: 70%;
+    }
+
+    .CTA {
+        padding: 40px 32px;
+    }
+
+    .CTA .CTA-container {
+        display: block;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .CTA form .input-btn {
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .CTA input {
+        padding: 12px 160px 12px 16px;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content .content-1st img {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    .blog-posts {
+        padding: 48px 32px;
+    }
+
+    .CTA-second {
+        padding: 40px 32px;
+    }
+
+    footer {
+        padding: 40px 32px;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer-logo {
+        width: 700px;
+    }
+
+    .footer-logo input {
+        padding: 12px 160px 12px 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        padding: 32px 16px;
+    }
+
+    .CTA {
+        padding: 32px 16px;
+    }
+
+    .CTA-second {
+        padding: 32px 16px;
+    }
+
+    footer {
+        padding: 32px 16px;
+    }
+
+    .footer-content {
+        
+        padding: 0px;
+    }
+
+    .footer-logo input {
+        padding: 12px 16px;
+    }
+
+    .footer-logo {
+        align-items: center;
+        width: max-content;
+    }
+}
