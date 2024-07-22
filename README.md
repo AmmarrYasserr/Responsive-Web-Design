@@ -8,10 +8,6 @@ This project demonstrates the principles of responsive web design, using HTML an
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Setup](#setup)
-- [Usage](#usage)
-- [Screens](#screens)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -26,10 +22,10 @@ Responsive web design ensures that web pages look good on all devices, providing
 
 - Responsive layout for different screen sizes
   - Mobile (max-width: 600px)
-  - Tablet (min-width: 601px and max-width: 1024px)
+  - Tablet (min-width: 768px and max-width: 1024px)
   - Desktop (min-width: 1025px)
 - HTML5 semantic tags
-- CSS Flexbox and Grid for layout
+- CSS Flexbox for layout
 
 ## Setup
 
